@@ -25,6 +25,6 @@ public class MailController {
 	}
 	@RequestMapping("/hello")
 	public String hello() {
-		return "hello heroku";
+		return "hello heroku ...nice to meet you";
 	}
 }
