@@ -23,4 +23,8 @@ public class MailController {
 		service.sendNotification(user);
 		return "notification sent to "+user.getEmail();
 	}
+	@RequestMapping("/hello")
+	public String hello() {
+		return "hello heroku";
+	}
 }
